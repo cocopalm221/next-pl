@@ -27,10 +27,8 @@ export default function Home() {
               것이다. 이는 하였으며, 않는 피다.
             </p>
             <div className="flex justify-center">
-              <Link href="/portfolio">
-                <button className="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">
-                  portfolio
-                </button>
+              <Link legacyBehavior href="/portfolio">
+                <button className="btn-project-index">portfolio</button>
               </Link>
             </div>
           </div>
